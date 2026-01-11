@@ -13,6 +13,7 @@
     --dark-bg: #34495e;
     --text-color: #2c3e50;
     --light-text: #ffffff;
+    --white-bg: #ffffff;
 }
 
 body {
@@ -136,7 +137,7 @@ header {
 }
 
 .info-card {
-    background: white;
+    background: var(--white-bg);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -192,7 +193,7 @@ header {
 }
 
 .tourism-card {
-    background: white;
+    background: var(--white-bg);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -225,7 +226,7 @@ header {
 .contact-info {
     margin-top: 2rem;
     padding: 2rem;
-    background: white;
+    background: var(--white-bg);
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
