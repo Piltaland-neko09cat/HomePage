@@ -62,9 +62,10 @@ header {
     font-size: 1.8rem;
     margin-bottom: 0.2rem;
     background: var(--gradient-2);
+    color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     font-weight: 800;
 }
 
@@ -149,9 +150,10 @@ header {
     font-weight: 900;
     letter-spacing: -0.02em;
     background: var(--gradient-2);
+    color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     animation: fadeInDown 1s ease;
 }
 
@@ -216,9 +218,10 @@ header {
     font-weight: 800;
     margin-bottom: 0.5rem;
     background: var(--gradient-2);
+    color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .section-title .ja {
