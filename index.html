@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Piltalandの公式ホームページ - 架空国家の情報をご覧いただけます">
-    <title>Piltaland - ピルタランド共和国</title>
+    <meta name="description" content="Piltaland United States - A federation of 16 states governed by Law as Code | ピルタランド連合国家 - 16州からなる連合国家">
+    <title>Piltaland United States | ピルタランド連合国家</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,111 +13,259 @@
             <div class="container">
                 <div class="logo">
                     <h1>🏛️ Piltaland</h1>
-                    <p class="subtitle">ピルタランド共和国</p>
+                    <p class="subtitle">United States | 連合国家</p>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#home">ホーム</a></li>
-                    <li><a href="#about">国について</a></li>
-                    <li><a href="#culture">文化</a></li>
-                    <li><a href="#tourism">観光</a></li>
-                    <li><a href="#contact">お問い合わせ</a></li>
+                    <li><a href="#home">Home ホーム</a></li>
+                    <li><a href="#philosophy">Philosophy 理念</a></li>
+                    <li><a href="#states">States 州</a></li>
+                    <li><a href="#railway">Railway 鉄道</a></li>
+                    <li><a href="#participate">Participate 参加</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
-                <h2>ようこそ、Piltalandへ</h2>
-                <p>美しい自然と豊かな文化が息づく架空の国</p>
-                <button class="cta-button" aria-label="詳細情報へスクロール">詳しく見る</button>
+                <h2 class="glitch" data-text="Piltaland United States">Piltaland United States</h2>
+                <p class="hero-subtitle">ピルタランド連合国家</p>
+                <p class="tagline">A Federation of 16 States | Governed by Law as Code</p>
+                <p class="tagline-ja">16州からなる連合国家 | コードで定義される法治国家</p>
+                <a href="#participate" class="cta-button" aria-label="Apply for railway license">
+                    🚄 Apply for Railway License (Pull Request)
+                </a>
             </div>
         </section>
 
-        <section id="about" class="section">
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="section">
             <div class="container">
-                <h2>国について</h2>
-                <div class="info-grid">
-                    <div class="info-card">
-                        <h3>📍 基本情報</h3>
+                <h2 class="section-title">
+                    <span class="en">Law as Code</span>
+                    <span class="ja">コードとしての法</span>
+                </h2>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card">
+                        <div class="card-icon">⚖️</div>
+                        <h3>GitHub-Managed Governance</h3>
+                        <p class="jp">ガバナンスのGitHub管理</p>
+                        <p>All laws, regulations, and infrastructure standards are defined as code in our GitHub Organization. Every change goes through pull requests, reviews, and version control.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Federation Model (UAE-Inspired)</h3>
+                        <p class="jp">連邦制（UAEモデル）</p>
+                        <p>The Federal Unified Government manages wide-area infrastructure (railway licenses, standards), while each of the 16 states maintains autonomous governance through dedicated repositories.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <div class="card-icon">📜</div>
+                        <h3>Historical Legacy</h3>
+                        <p class="jp">歴史的遺産</p>
+                        <p>Originally an English-speaking region, Piltaland was once governed by an Eastern Empire (Japan). This legacy deeply embedded Japanese language in railway terminology and administrative systems, making us a bilingual nation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- States Section -->
+        <section id="states" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="en">16 Member States</span>
+                    <span class="ja">16の加盟州</span>
+                </h2>
+                <p class="section-desc">Each state maintains its own repository and autonomous governance</p>
+                <div class="states-grid">
+                    <div class="state-card featured">
+                        <div class="state-rank">#1</div>
+                        <h3>Vakapmaa</h3>
+                        <p class="state-population">👥 Population: 5,320,000</p>
+                        <p class="state-desc">The central hub state with major cities including Tuuna and Pertvepota. Economic and cultural center of the federation.</p>
+                        <span class="state-badge">Repository: /Vakapmaa</span>
+                    </div>
+                    <div class="state-card featured">
+                        <div class="state-rank">#2</div>
+                        <h3>Napokinmaa</h3>
+                        <p class="state-population">👥 Population: 5,170,000</p>
+                        <p class="state-desc">The economic powerhouse and private railway network hub. Dense urban development and advanced transit systems.</p>
+                        <span class="state-badge">Repository: /Napokinmaa</span>
+                    </div>
+                    <div class="state-card">
+                        <h3>State #3</h3>
+                        <p class="state-population">👥 Population: ~4,800,000</p>
+                        <p class="state-desc">Details managed in state repository.</p>
+                        <span class="state-badge">Repository: /State-03</span>
+                    </div>
+                    <div class="state-card">
+                        <h3>State #4</h3>
+                        <p class="state-population">👥 Population: ~4,500,000</p>
+                        <p class="state-desc">Details managed in state repository.</p>
+                        <span class="state-badge">Repository: /State-04</span>
+                    </div>
+                    <div class="state-card">
+                        <h3>State #5</h3>
+                        <p class="state-population">👥 Population: ~4,200,000</p>
+                        <p class="state-desc">Details managed in state repository.</p>
+                        <span class="state-badge">Repository: /State-05</span>
+                    </div>
+                    <div class="state-card">
+                        <h3>State #6</h3>
+                        <p class="state-population">👥 Population: ~3,900,000</p>
+                        <p class="state-desc">Details managed in state repository.</p>
+                        <span class="state-badge">Repository: /State-06</span>
+                    </div>
+                    <div class="state-card">
+                        <h3>State #7-16</h3>
+                        <p class="state-desc">Additional states with varying populations and characteristics. Each maintains autonomous governance.</p>
+                        <span class="state-badge">Repositories: /State-07 to /State-16</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Railway Section -->
+        <section id="railway" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="en">Railway System</span>
+                    <span class="ja">鉄道システム</span>
+                </h2>
+                <div class="railway-intro">
+                    <p class="large-text">A sophisticated mixed-gauge system combining historical narrow gauge with modern high-speed rail</p>
+                    <p class="large-text-ja">歴史的狭軌と現代高速鉄道を組み合わせた高度な軌間混在システム</p>
+                </div>
+                
+                <div class="railway-grid">
+                    <div class="railway-card">
+                        <h3>🛤️ Track Gauges | 軌間</h3>
+                        <div class="gauge-info">
+                            <div class="gauge-item">
+                                <strong>Narrow Gauge (狭軌)</strong>
+                                <span class="gauge-spec">1067mm</span>
+                                <p>Legacy system from the Eastern Empire era. Still widely used for regional and private railways.</p>
+                            </div>
+                            <div class="gauge-item">
+                                <strong>Standard Gauge (標準軌)</strong>
+                                <span class="gauge-spec">1435mm</span>
+                                <p>Modern Shinkansen (新幹線) high-speed rail system. Symbol of modernization and progress.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="railway-card">
+                        <h3>🏔️ Geographic Challenges | 地理的課題</h3>
+                        <p><strong>Alps-Veris Mountain Range (アルプス・ヴェリス山脈)</strong></p>
+                        <p>Elevation: H 50-100</p>
+                        <p>A massive north-south mountain range divides the country, requiring advanced civil engineering:</p>
                         <ul>
-                            <li><strong>国名:</strong> ピルタランド共和国</li>
-                            <li><strong>首都:</strong> ネコシティ</li>
-                            <li><strong>人口:</strong> 約500万人</li>
-                            <li><strong>面積:</strong> 45,000 km²</li>
-                            <li><strong>公用語:</strong> ピルタ語、日本語</li>
+                            <li>🔄 Loop lines (ループ線)</li>
+                            <li>↔️ Switchbacks (スイッチバック)</li>
+                            <li>🚇 Tunnels (トンネル)</li>
                         </ul>
                     </div>
-                    <div class="info-card">
-                        <h3>🏛️ 政治体制</h3>
-                        <p>Piltalandは民主共和制を採用しており、5年ごとに大統領選挙が行われます。議会は一院制で、国民の声を大切にする政治を実践しています。</p>
+
+                    <div class="railway-card">
+                        <h3>🏢 Operation Model | 運営モデル</h3>
+                        <p><strong>Vertical Separation (上下分離方式)</strong></p>
+                        <p>The Federal Government owns and maintains the track infrastructure, while both public and private operators run train services.</p>
+                        <p class="jp">連邦政府が線路インフラを所有・保守し、公営・私営の両事業者が列車運行を行います。</p>
+                        <div class="operator-types">
+                            <span class="badge">Federal Railways</span>
+                            <span class="badge">Private Railways</span>
+                            <span class="badge">State Railways</span>
+                        </div>
                     </div>
-                    <div class="info-card">
-                        <h3>💼 経済</h3>
-                        <p>主要産業は観光業、テクノロジー、農業です。特に近年はIT産業が急成長を遂げており、世界中から注目を集めています。</p>
+                </div>
+
+                <div class="railway-standards">
+                    <h3>📋 Technical Standards</h3>
+                    <p>All railway specifications are maintained in the <code>/railway-standards</code> repository</p>
+                    <div class="standards-links">
+                        <a href="https://github.com/Piltaland-neko09cat" class="standard-link">🔧 Engineering Standards</a>
+                        <a href="https://github.com/Piltaland-neko09cat" class="standard-link">🛡️ Safety Regulations</a>
+                        <a href="https://github.com/Piltaland-neko09cat" class="standard-link">🗺️ Route Standards</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="culture" class="section alt-bg">
+        <!-- Participate Section -->
+        <section id="participate" class="section alt-bg">
             <div class="container">
-                <h2>文化</h2>
-                <div class="culture-content">
-                    <div class="culture-item">
-                        <h3>🎭 伝統文化</h3>
-                        <p>Piltalandには古くから伝わる独特の祭りや伝統芸能があります。年に一度開催される「ネコ祭り」は国を挙げての一大イベントです。</p>
+                <h2 class="section-title">
+                    <span class="en">Join the Nation</span>
+                    <span class="ja">国家への参加</span>
+                </h2>
+                <div class="participate-content">
+                    <div class="participate-card primary-cta">
+                        <h3>🚄 Apply for Railway License</h3>
+                        <p class="jp">鉄道免許の申請</p>
+                        <p>Want to operate a railway in Piltaland? Submit a Pull Request with your proposal following our technical standards.</p>
+                        <ol>
+                            <li>Fork the <code>/railway-standards</code> repository</li>
+                            <li>Prepare your license application following the template</li>
+                            <li>Submit a Pull Request for review</li>
+                            <li>Engage with the federal review board</li>
+                        </ol>
+                        <a href="https://github.com/Piltaland-neko09cat" class="btn-primary">Submit Pull Request →</a>
                     </div>
-                    <div class="culture-item">
-                        <h3>🍽️ 料理</h3>
-                        <p>新鮮な海の幸と山の幸を使った料理が特徴です。代表的な料理には「ピルタシチュー」や「ネコパン」などがあります。</p>
-                    </div>
-                    <div class="culture-item">
-                        <h3>🎨 芸術</h3>
-                        <p>現代アートと伝統工芸が融合した独自の芸術スタイルが発展しています。首都には多くの美術館やギャラリーがあります。</p>
+
+                    <div class="participate-grid">
+                        <div class="participate-card">
+                            <h3>📜 Propose Legislation</h3>
+                            <p>Contribute to our legal framework through the <code>/laws</code> repository</p>
+                            <a href="https://github.com/Piltaland-neko09cat" class="btn-secondary">View Laws →</a>
+                        </div>
+                        <div class="participate-card">
+                            <h3>🗺️ Map Data</h3>
+                            <p>Improve our geographical and infrastructure data in <code>/map-data</code></p>
+                            <a href="https://github.com/Piltaland-neko09cat" class="btn-secondary">Contribute →</a>
+                        </div>
+                        <div class="participate-card">
+                            <h3>🏛️ State Governance</h3>
+                            <p>Each state has its own repository. Join your local state's government.</p>
+                            <a href="https://github.com/Piltaland-neko09cat" class="btn-secondary">Browse States →</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="tourism" class="section">
+        <!-- Organization Info -->
+        <section class="section org-info">
             <div class="container">
-                <h2>観光スポット</h2>
-                <div class="tourism-grid">
-                    <div class="tourism-card">
-                        <div class="card-icon">🏰</div>
-                        <h3>ネコ城</h3>
-                        <p>歴史的な城で、美しい庭園と博物館があります。</p>
-                    </div>
-                    <div class="tourism-card">
-                        <div class="card-icon">🏔️</div>
-                        <h3>ピルタ山</h3>
-                        <p>標高3,000mの霊峰。ハイキングコースが人気です。</p>
-                    </div>
-                    <div class="tourism-card">
-                        <div class="card-icon">🏖️</div>
-                        <h3>エメラルドビーチ</h3>
-                        <p>透明度抜群の美しいビーチ。マリンスポーツが楽しめます。</p>
-                    </div>
-                    <div class="tourism-card">
-                        <div class="card-icon">🎪</div>
-                        <h3>文化センター</h3>
-                        <p>伝統芸能のショーや展示会が定期的に開催されます。</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section alt-bg">
-            <div class="container">
-                <h2>お問い合わせ</h2>
-                <div class="contact-content">
-                    <p>Piltalandに関するお問い合わせは、以下の連絡先までお願いいたします。</p>
-                    <div class="contact-info">
-                        <p>📧 Email: info@piltaland.example.com</p>
-                        <p>📞 電話: +81-XXX-XXXX-XXXX</p>
-                        <p>🏢 住所: ネコシティ中央区1-2-3 政府庁舎</p>
+                <h2 class="section-title">GitHub Organization</h2>
+                <p class="org-desc">All governance, infrastructure, and legal code is managed at:</p>
+                <a href="https://github.com/Piltaland-neko09cat" class="org-link">
+                    <span class="org-icon">📦</span>
+                    github.com/Piltaland-neko09cat
+                </a>
+                <div class="repo-structure">
+                    <h3>Repository Structure</h3>
+                    <div class="repo-list">
+                        <div class="repo-item">
+                            <span class="repo-icon">📁</span>
+                            <code>/laws</code>
+                            <span class="repo-desc">Legal framework and regulations</span>
+                        </div>
+                        <div class="repo-item">
+                            <span class="repo-icon">📁</span>
+                            <code>/railway-standards</code>
+                            <span class="repo-desc">Railway technical specifications</span>
+                        </div>
+                        <div class="repo-item">
+                            <span class="repo-icon">📁</span>
+                            <code>/map-data</code>
+                            <span class="repo-desc">Geographic and infrastructure data</span>
+                        </div>
+                        <div class="repo-item">
+                            <span class="repo-icon">📁</span>
+                            <code>/Vakapmaa, /Napokinmaa, ...</code>
+                            <span class="repo-desc">Individual state repositories</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,8 +274,31 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Piltaland 共和国. All rights reserved.</p>
-            <p>このサイトは架空の国家のホームページです。</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Piltaland United States</h4>
+                    <p>ピルタランド連合国家</p>
+                    <p class="footer-tagline">A federation governed by code | コードで統治される連邦</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/Piltaland-neko09cat">GitHub Organization</a></li>
+                        <li><a href="#philosophy">Law as Code</a></li>
+                        <li><a href="#states">16 States</a></li>
+                        <li><a href="#railway">Railway System</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Federal Government</h4>
+                    <p>連邦統一政府</p>
+                    <p>Managing wide-area infrastructure and standards</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Piltaland United States. All rights reserved.</p>
+                <p>This is a fictional nation project managed through GitHub.</p>
+            </div>
         </div>
     </footer>
 
