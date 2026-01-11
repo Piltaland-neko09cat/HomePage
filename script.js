@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-menu a');
 
     function highlightNavigation() {
-        const scrollY = window.pageYOffset;
+        const scrollY = window.scrollY;
 
         sections.forEach(section => {
             const sectionHeight = section.offsetHeight;
