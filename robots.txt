@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://piltaland.neko09cat.com/sitemap.xml
