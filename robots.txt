@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://piltaland.neko09cat.com/sitemap.xml
+Sitemap: https://site.piltaland.com/sitemap.xml
